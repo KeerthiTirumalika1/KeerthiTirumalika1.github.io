@@ -8,7 +8,6 @@
 </head>
 <body>
 
-  <!-- NAV -->
   <nav class="nav">
     <div class="nav-left">Keerthi Tirumalika</div>
     <div class="nav-right">
@@ -21,10 +20,12 @@
     </div>
   </nav>
 
-  <!-- HERO -->
   <header class="hero" id="home">
     <div class="container hero-inner">
       <div>
+        <!-- Profile picture (upload it as images/profile.jpg or profile.png) -->
+        <img class="profile-pic" src="images/profile.jpg" alt="Keerthi Tirumalika" />
+
         <h1>Keerthi Tirumalika</h1>
         <p class="subtitle">Business Analyst • Data Analyst • Tableau Developer</p>
         <p class="lead">
@@ -53,7 +54,6 @@
     </div>
   </header>
 
-  <!-- ABOUT -->
   <section class="section reveal" id="about">
     <div class="container">
       <h2>About</h2>
@@ -65,7 +65,6 @@
     </div>
   </section>
 
-  <!-- SKILLS -->
   <section class="section alt reveal" id="skills">
     <div class="container">
       <h2>Skills</h2>
@@ -73,54 +72,42 @@
       <div class="skills-grid">
         <div class="skill">
           <div class="skill-top"><span>Tableau</span><span>90%</span></div>
-          <div class="bar"><div class="fill" style="width:90%"></div></div>
+          <div class="bar"><div class="fill" data-width="90%"></div></div>
         </div>
-
         <div class="skill">
           <div class="skill-top"><span>SQL</span><span>85%</span></div>
-          <div class="bar"><div class="fill" style="width:85%"></div></div>
+          <div class="bar"><div class="fill" data-width="85%"></div></div>
         </div>
-
         <div class="skill">
           <div class="skill-top"><span>Excel & Power Query</span><span>85%</span></div>
-          <div class="bar"><div class="fill" style="width:85%"></div></div>
+          <div class="bar"><div class="fill" data-width="85%"></div></div>
         </div>
-
         <div class="skill">
           <div class="skill-top"><span>Snowflake</span><span>80%</span></div>
-          <div class="bar"><div class="fill" style="width:80%"></div></div>
+          <div class="bar"><div class="fill" data-width="80%"></div></div>
         </div>
-
         <div class="skill">
           <div class="skill-top"><span>Python</span><span>75%</span></div>
-          <div class="bar"><div class="fill" style="width:75%"></div></div>
+          <div class="bar"><div class="fill" data-width="75%"></div></div>
         </div>
-
         <div class="skill">
           <div class="skill-top"><span>Data Storytelling</span><span>80%</span></div>
-          <div class="bar"><div class="fill" style="width:80%"></div></div>
+          <div class="bar"><div class="fill" data-width="80%"></div></div>
         </div>
       </div>
 
       <div class="badges">
-        <span>Data Modeling</span>
-        <span>Dashboard UX</span>
-        <span>Healthcare Analytics</span>
-        <span>ETL</span>
-        <span>KPI Reporting</span>
-        <span>Forecasting</span>
-        <span>Regression & Statistics</span>
+        <span>Data Modeling</span><span>Dashboard UX</span><span>Healthcare Analytics</span>
+        <span>ETL</span><span>KPI Reporting</span><span>Forecasting</span><span>Regression & Statistics</span>
       </div>
     </div>
   </section>
 
-  <!-- RESUME -->
   <section class="section reveal" id="resume">
     <div class="container">
       <h2>Resume</h2>
 
       <div class="timeline">
-
         <div class="t-item">
           <div class="t-date">Education</div>
           <div class="t-card">
@@ -135,11 +122,10 @@
             <h3>Business Analyst</h3>
             <p class="muted">Dallas, USA • Jul 2024 – Present</p>
             <ul>
-              <li>Built Tableau dashboards and Snowflake models integrating clinical, operational, and financial KPIs, reducing manual reporting by <b>80%</b>.</li>
-              <li>Executed SQL- and Python-based analyses to validate metrics and improve forecasting accuracy by <b>20%</b>.</li>
-              <li>Automated Excel/Power Query workflows to improve visibility of cost and performance trends by <b>35%</b>.</li>
-              <li>Consolidated SQL Server, PostgreSQL, and Snowflake sources to improve data quality by <b>30%</b>.</li>
-              <li>Presented analytical findings to senior leadership to align on documentation improvement and performance measures.</li>
+              <li>Built Tableau dashboards and Snowflake models integrating KPIs, reducing manual reporting by <b>80%</b>.</li>
+              <li>SQL + Python analysis improved forecasting accuracy by <b>20%</b>.</li>
+              <li>Automated Excel/Power Query workflows improving trend visibility by <b>35%</b>.</li>
+              <li>Improved data quality by <b>30%</b> across SQL Server, PostgreSQL, and Snowflake sources.</li>
             </ul>
           </div>
         </div>
@@ -150,11 +136,10 @@
             <h3>Business Analyst</h3>
             <p class="muted">Dallas, USA • Sep 2023 – Jul 2024</p>
             <ul>
-              <li>Automated SQL and Excel workflows for clinical and financial validation, reducing processing time by <b>40%</b>.</li>
-              <li>Designed Tableau dashboards using Snowflake and AWS sources to monitor utilization, operational metrics, and quality outcomes.</li>
-              <li>Applied regression and statistical modeling to reduce reporting errors by <b>15%</b> and improve insight reliability.</li>
-              <li>Automated Spark/Hive ETL pipelines with data quality checks, reducing manual validation by <b>35%</b>.</li>
-              <li>Translated requirements into dashboards used for strategic planning and performance improvement.</li>
+              <li>Automated SQL and Excel workflows, cutting processing time by <b>40%</b>.</li>
+              <li>Built Tableau dashboards on Snowflake + AWS to track utilization and quality metrics.</li>
+              <li>Regression/stat modeling reduced reporting errors by <b>15%</b>.</li>
+              <li>Automated Spark/Hive ETL with data quality checks.</li>
             </ul>
           </div>
         </div>
@@ -165,14 +150,12 @@
             <h3>Data Analyst</h3>
             <p class="muted">Hyderabad, India • Apr 2020 – Jul 2021</p>
             <ul>
-              <li>Cleaned, validated, and transformed operational and financial data using SQL and Excel, improving accuracy by <b>25%</b>.</li>
-              <li>Built Excel dashboards with automated visualizations to track utilization, performance, and departmental KPIs.</li>
-              <li>Supported ETL workflows using Hive, Spark, and SSIS to integrate sources into Snowflake for standardized reporting.</li>
-              <li>Developed Power BI dashboards to improve reporting efficiency by <b>30%</b>.</li>
+              <li>Improved data accuracy by <b>25%</b> using SQL + Excel validation.</li>
+              <li>Built Excel and Power BI dashboards improving reporting efficiency by <b>30%</b>.</li>
+              <li>Supported ETL workflows with Hive, Spark, and SSIS into Snowflake.</li>
             </ul>
           </div>
         </div>
-
       </div>
 
       <p style="margin-top:16px;">
@@ -181,7 +164,6 @@
     </div>
   </section>
 
-  <!-- PROJECTS -->
   <section class="section alt reveal" id="projects">
     <div class="container">
       <h2>Projects</h2>
@@ -200,7 +182,7 @@
           <img src="images/global-product-demand.png" alt="Global Product Demand Analysis dashboard preview" />
           <h3>Global Product Demand Analysis</h3>
           <p><b>Tools:</b> Tableau, Excel</p>
-          <p>Explores product demand trends by region and category to highlight top performers and market patterns.</p>
+          <p>Explores demand trends by region and category to highlight top performers and market patterns.</p>
           <p><a href="https://public.tableau.com/app/profile/keerthi.tirumalika2526/viz/GlobalProductDemandAnalysis/Dashboard1" target="_blank" rel="noopener">Live Dashboard</a></p>
         </div>
 
@@ -215,7 +197,6 @@
     </div>
   </section>
 
-  <!-- CONTACT -->
   <section class="section reveal" id="contact">
     <div class="container">
       <h2>Contact</h2>
@@ -233,13 +214,13 @@
   </footer>
 
   <script>
-    // ====== Dark mode (default: system preference) ======
+    // --- Dark mode toggle (persists) ---
     const root = document.documentElement;
     const toggle = document.getElementById("themeToggle");
 
-    function setTheme(mode) {
-      if (mode === "dark") {
-        root.setAttribute("data-theme", "dark");
+    function setTheme(mode){
+      if(mode === "dark"){
+        root.setAttribute("data-theme","dark");
         toggle.textContent = "☀️";
       } else {
         root.removeAttribute("data-theme");
@@ -249,9 +230,9 @@
     }
 
     const saved = localStorage.getItem("theme");
-    if (saved) {
+    if(saved){
       setTheme(saved);
-    } else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    } else if(window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches){
       setTheme("dark");
     } else {
       setTheme("light");
@@ -262,37 +243,30 @@
       setTheme(current === "dark" ? "light" : "dark");
     });
 
-    // ====== Reveal on scroll animations ======
+    // --- Reveal animations ---
     const reveals = document.querySelectorAll(".reveal");
-
     const io = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
-        if (entry.isIntersecting) entry.target.classList.add("show");
+        if(entry.isIntersecting) entry.target.classList.add("show");
       });
-    }, { threshold: 0.12 });
+    }, {threshold: 0.12});
+    reveals.forEach(el => io.observe(el));
 
-    reveals.forEach((el) => io.observe(el));
-
-    // Animate skill bars once they show
-    const skillFills = document.querySelectorAll(".fill");
+    // --- Animate skill bars when Skills section is visible ---
     const skillsSection = document.getElementById("skills");
-
+    const fills = document.querySelectorAll(".fill");
     const ioSkills = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (!entry.isIntersecting) return;
-        skillFills.forEach(fill => {
-          const w = fill.getAttribute("style")?.match(/width:\s*(\d+%)/)?.[1];
-          if (w) fill.style.width = w;
-        });
+      entries.forEach(entry => {
+        if(!entry.isIntersecting) return;
+        fills.forEach(f => f.style.width = f.getAttribute("data-width") || "0%");
         ioSkills.disconnect();
       });
-    }, { threshold: 0.2 });
+    }, {threshold: 0.2});
+    if(skillsSection) ioSkills.observe(skillsSection);
 
-    if (skillsSection) ioSkills.observe(skillsSection);
-
-    // Footer year
+    // footer year
     const yearEl = document.getElementById("year");
-    if (yearEl) yearEl.textContent = new Date().getFullYear();
+    if(yearEl) yearEl.textContent = new Date().getFullYear();
   </script>
 
 </body>
