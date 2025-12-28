@@ -1,205 +1,299 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Keerthi Tirumalika | Business & Data Analyst</title>
-<link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Keerthi Tirumalika | Business & Data Analyst</title>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
 
-<nav class="nav">
-  <div class="nav-left">Keerthi Tirumalika</div>
-  <div class="nav-right">
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#resume">Resume</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </div>
-</nav>
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-left">Keerthi Tirumalika</div>
+    <div class="nav-right">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#resume">Resume</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+    </div>
+  </nav>
 
-<header class="hero">
-  <div class="container hero-inner">
-    <div>
-      <h1>Keerthi Tirumalika</h1>
-      <p class="subtitle">Business Analyst • Data Analyst • Tableau Developer</p>
-      <p class="lead">
-        I design analytics solutions that transform healthcare and business data into
-        clear, actionable insights using Tableau, SQL, Snowflake, and Python.
+  <!-- HERO -->
+  <header class="hero" id="home">
+    <div class="container hero-inner">
+      <div>
+        <h1>Keerthi Tirumalika</h1>
+        <p class="subtitle">Business Analyst • Data Analyst • Tableau Developer</p>
+        <p class="lead">
+          I design analytics solutions that transform healthcare and business data into clear, actionable insights
+          using Tableau, SQL, Snowflake, and Python.
+        </p>
+
+        <div class="button-row">
+          <a class="btn solid" href="#projects">View Projects</a>
+          <a class="btn" href="Resume/KEERTHITIRUMALIKA_resumepdf.pdf" target="_blank" rel="noopener">Resume</a>
+          <a class="btn" href="https://www.linkedin.com/in/keerthitirumalika/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn" href="https://public.tableau.com/app/profile/keerthi.tirumalika2526" target="_blank" rel="noopener">Tableau</a>
+          <a class="btn" href="https://github.com/keerthitirumalika1" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <h3>Core Strengths</h3>
+        <ul>
+          <li>Healthcare & Financial Analytics</li>
+          <li>Tableau Dashboard Design</li>
+          <li>Snowflake, SQL, Python</li>
+          <li>KPI & Performance Reporting</li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section class="section reveal" id="about">
+    <div class="container">
+      <h2>About</h2>
+      <p>
+        I’m a Business Analyst with experience delivering end-to-end analytics across clinical, operational, and financial domains.
+        I specialize in building Tableau dashboards and Snowflake data models that convert complex datasets into decision-ready KPIs,
+        improving reporting speed, forecasting accuracy, and business performance.
       </p>
-
-      <div class="button-row">
-        <a class="btn solid" href="#projects">View Projects</a>
-        <a class="btn" href="Resume/KEERTHITIRUMALIKA_resumepdf.pdf" target="_blank">Resume</a>
-        <a class="btn" href="https://www.linkedin.com/in/keerthitirumalika/" target="_blank">LinkedIn</a>
-        <a class="btn" href="https://public.tableau.com/app/profile/keerthi.tirumalika2526" target="_blank">Tableau</a>
-      </div>
     </div>
+  </section>
 
-    <div class="hero-card">
-      <h3>Core Strengths</h3>
-      <ul>
-        <li>Healthcare & Financial Analytics</li>
-        <li>Tableau Dashboard Design</li>
-        <li>Snowflake, SQL, Python</li>
-        <li>KPI & Performance Reporting</li>
-      </ul>
-    </div>
-  </div>
-</header>
+  <!-- SKILLS -->
+  <section class="section alt reveal" id="skills">
+    <div class="container">
+      <h2>Skills</h2>
 
-<section class="section" id="about">
-  <div class="container">
-    <h2>About</h2>
-    <p>
-      I’m a Business Analyst with experience delivering end-to-end analytics across clinical,
-      operational, and financial domains. I specialize in building Tableau dashboards and
-      Snowflake data models that convert complex datasets into decision-ready KPIs, improving
-      reporting speed, forecasting accuracy, and business performance.
-    </p>
-  </div>
-</section>
+      <div class="skills-grid">
+        <div class="skill">
+          <div class="skill-top"><span>Tableau</span><span>90%</span></div>
+          <div class="bar"><div class="fill" style="width:90%"></div></div>
+        </div>
 
-<section class="section alt" id="skills">
-  <div class="container">
-    <h2>Skills</h2>
+        <div class="skill">
+          <div class="skill-top"><span>SQL</span><span>85%</span></div>
+          <div class="bar"><div class="fill" style="width:85%"></div></div>
+        </div>
 
-    <div class="skills-grid">
-      <div class="skill">
-        <div class="skill-top"><span>Tableau</span><span>90%</span></div>
-        <div class="bar"><div class="fill" style="width:90%"></div></div>
-      </div>
-      <div class="skill">
-        <div class="skill-top"><span>SQL</span><span>85%</span></div>
-        <div class="bar"><div class="fill" style="width:85%"></div></div>
-      </div>
-      <div class="skill">
-        <div class="skill-top"><span>Excel & Power Query</span><span>85%</span></div>
-        <div class="bar"><div class="fill" style="width:85%"></div></div>
-      </div>
-      <div class="skill">
-        <div class="skill-top"><span>Snowflake</span><span>80%</span></div>
-        <div class="bar"><div class="fill" style="width:80%"></div></div>
-      </div>
-    </div>
+        <div class="skill">
+          <div class="skill-top"><span>Excel & Power Query</span><span>85%</span></div>
+          <div class="bar"><div class="fill" style="width:85%"></div></div>
+        </div>
 
-    <div class="badges">
-      <span>Data Modeling</span><span>Dashboard UX</span><span>Healthcare Analytics</span>
-      <span>ETL</span><span>KPI Reporting</span><span>Forecasting</span>
-    </div>
-  </div>
-</section>
+        <div class="skill">
+          <div class="skill-top"><span>Snowflake</span><span>80%</span></div>
+          <div class="bar"><div class="fill" style="width:80%"></div></div>
+        </div>
 
-<section class="section" id="resume">
-  <div class="container">
-    <h2>Resume</h2>
+        <div class="skill">
+          <div class="skill-top"><span>Python</span><span>75%</span></div>
+          <div class="bar"><div class="fill" style="width:75%"></div></div>
+        </div>
 
-    <div class="timeline">
-
-      <div class="t-item">
-        <div class="t-date">Education</div>
-        <div class="t-card">
-          <h3>M.S. in Business Analytics</h3>
-          <p class="muted">University of Texas at Dallas • 2023</p>
+        <div class="skill">
+          <div class="skill-top"><span>Data Storytelling</span><span>80%</span></div>
+          <div class="bar"><div class="fill" style="width:80%"></div></div>
         </div>
       </div>
 
-      <div class="t-item">
-        <div class="t-date">Accenture</div>
-        <div class="t-card">
-          <h3>Business Analyst</h3>
-          <p class="muted">Dallas, USA • Jul 2024 – Present</p>
-          <ul>
-            <li>Built Tableau dashboards and Snowflake models integrating clinical, operational, and financial KPIs, reducing manual reporting by <b>80%</b>.</li>
-            <li>Performed SQL and Python analysis to improve forecasting accuracy by <b>20%</b>.</li>
-            <li>Automated Excel and Power Query reporting to increase cost and performance visibility by <b>35%</b>.</li>
-            <li>Improved data quality by <b>30%</b> by consolidating SQL Server, PostgreSQL, and Snowflake sources.</li>
-          </ul>
-        </div>
+      <div class="badges">
+        <span>Data Modeling</span>
+        <span>Dashboard UX</span>
+        <span>Healthcare Analytics</span>
+        <span>ETL</span>
+        <span>KPI Reporting</span>
+        <span>Forecasting</span>
+        <span>Regression & Statistics</span>
       </div>
-
-      <div class="t-item">
-        <div class="t-date">Deloitte</div>
-        <div class="t-card">
-          <h3>Business Analyst</h3>
-          <p class="muted">Dallas, USA • Sep 2023 – Jul 2024</p>
-          <ul>
-            <li>Automated SQL and Excel workflows, reducing processing time by <b>40%</b>.</li>
-            <li>Built Tableau dashboards on Snowflake and AWS for utilization and quality tracking.</li>
-            <li>Applied regression and statistical models to reduce reporting errors by <b>15%</b>.</li>
-            <li>Automated Spark and Hive ETL pipelines with data quality checks.</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="t-item">
-        <div class="t-date">HCL</div>
-        <div class="t-card">
-          <h3>Data Analyst</h3>
-          <p class="muted">Hyderabad, India • Apr 2020 – Jul 2021</p>
-          <ul>
-            <li>Improved data accuracy by <b>25%</b> through SQL and Excel validation.</li>
-            <li>Built Excel and Power BI dashboards improving reporting efficiency by <b>30%</b>.</li>
-            <li>Supported ETL workflows using Hive, Spark, and SSIS.</li>
-          </ul>
-        </div>
-      </div>
-
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="section alt" id="projects">
-  <div class="container">
-    <h2>Projects</h2>
+  <!-- RESUME -->
+  <section class="section reveal" id="resume">
+    <div class="container">
+      <h2>Resume</h2>
 
-    <div class="grid">
+      <div class="timeline">
 
-      <div class="card">
-        <img src="images/King-County-House-Sales.png">
-        <h3>King County House Sales</h3>
-        <p>Analyzes 20,000+ home sales by zip code, pricing, and property features.</p>
-        <a href="https://public.tableau.com/app/profile/keerthi.tirumalika2526/viz/KingCountyHouseSales_17032001844010/KingCountyHouseSales" target="_blank">Live Dashboard</a>
+        <div class="t-item">
+          <div class="t-date">Education</div>
+          <div class="t-card">
+            <h3>M.S. in Business Analytics</h3>
+            <p class="muted">University of Texas at Dallas • 2023</p>
+          </div>
+        </div>
+
+        <div class="t-item">
+          <div class="t-date">Accenture</div>
+          <div class="t-card">
+            <h3>Business Analyst</h3>
+            <p class="muted">Dallas, USA • Jul 2024 – Present</p>
+            <ul>
+              <li>Built Tableau dashboards and Snowflake models integrating clinical, operational, and financial KPIs, reducing manual reporting by <b>80%</b>.</li>
+              <li>Executed SQL- and Python-based analyses to validate metrics and improve forecasting accuracy by <b>20%</b>.</li>
+              <li>Automated Excel/Power Query workflows to improve visibility of cost and performance trends by <b>35%</b>.</li>
+              <li>Consolidated SQL Server, PostgreSQL, and Snowflake sources to improve data quality by <b>30%</b>.</li>
+              <li>Presented analytical findings to senior leadership to align on documentation improvement and performance measures.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="t-item">
+          <div class="t-date">Deloitte</div>
+          <div class="t-card">
+            <h3>Business Analyst</h3>
+            <p class="muted">Dallas, USA • Sep 2023 – Jul 2024</p>
+            <ul>
+              <li>Automated SQL and Excel workflows for clinical and financial validation, reducing processing time by <b>40%</b>.</li>
+              <li>Designed Tableau dashboards using Snowflake and AWS sources to monitor utilization, operational metrics, and quality outcomes.</li>
+              <li>Applied regression and statistical modeling to reduce reporting errors by <b>15%</b> and improve insight reliability.</li>
+              <li>Automated Spark/Hive ETL pipelines with data quality checks, reducing manual validation by <b>35%</b>.</li>
+              <li>Translated requirements into dashboards used for strategic planning and performance improvement.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="t-item">
+          <div class="t-date">HCL</div>
+          <div class="t-card">
+            <h3>Data Analyst</h3>
+            <p class="muted">Hyderabad, India • Apr 2020 – Jul 2021</p>
+            <ul>
+              <li>Cleaned, validated, and transformed operational and financial data using SQL and Excel, improving accuracy by <b>25%</b>.</li>
+              <li>Built Excel dashboards with automated visualizations to track utilization, performance, and departmental KPIs.</li>
+              <li>Supported ETL workflows using Hive, Spark, and SSIS to integrate sources into Snowflake for standardized reporting.</li>
+              <li>Developed Power BI dashboards to improve reporting efficiency by <b>30%</b>.</li>
+            </ul>
+          </div>
+        </div>
+
       </div>
 
-      <div class="card">
-        <img src="images/global-product-demand.png">
-        <h3>Global Product Demand</h3>
-        <p>Identifies top-performing products and demand trends across regions.</p>
-        <a href="https://public.tableau.com/app/profile/keerthi.tirumalika2526/viz/GlobalProductDemandAnalysis/Dashboard1" target="_blank">Live Dashboard</a>
-      </div>
-
-      <div class="card">
-        <img src="images/er-visits-dashboard.png">
-        <h3>Emergency Room Visits</h3>
-        <p>Tracks ER visit patterns by time, facility, and patient segments.</p>
-        <a href="https://public.tableau.com/app/profile/keerthi.tirumalika2526/viz/EmergencyRoomVisitsDashboard_17581352699150/Dashboard1" target="_blank">Live Dashboard</a>
-      </div>
-
+      <p style="margin-top:16px;">
+        <a class="btn" href="Resume/KEERTHITIRUMALIKA_resumepdf.pdf" target="_blank" rel="noopener">Download Resume (PDF)</a>
+      </p>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="section" id="contact">
-  <div class="container">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:keerthit222@gmail.com">keerthit222@gmail.com</a></p>
-    <p>
-      <a href="https://www.linkedin.com/in/keerthitirumalika/" target="_blank">LinkedIn</a> •
-      <a href="https://github.com/keerthitirumalika1" target="_blank">GitHub</a> •
-      <a href="https://public.tableau.com/app/profile/keerthi.tirumalika2526" target="_blank">Tableau</a>
-    </p>
-  </div>
-</section>
+  <!-- PROJECTS -->
+  <section class="section alt reveal" id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <p class="muted">Featured Tableau dashboards with business questions and insights.</p>
 
-<footer class="footer">
-  © <span id="year"></span> Keerthi Tirumalika
-</footer>
+      <div class="grid">
+        <div class="card">
+          <img src="images/King-County-House-Sales.png" alt="King County House Sales dashboard preview" />
+          <h3>King County House Sales</h3>
+          <p><b>Tools:</b> Tableau, Excel</p>
+          <p>Analyzes 20,000+ home sales to compare pricing and activity across zip codes, home features, and price bands.</p>
+          <p><a href="https://public.tableau.com/app/profile/keerthi.tirumalika2526/viz/KingCountyHouseSales_17032001844010/KingCountyHouseSales" target="_blank" rel="noopener">Live Dashboard</a></p>
+        </div>
 
-<script>
-document.getElementById("year").textContent = new Date().getFullYear();
-</script>
+        <div class="card">
+          <img src="images/global-product-demand.png" alt="Global Product Demand Analysis dashboard preview" />
+          <h3>Global Product Demand Analysis</h3>
+          <p><b>Tools:</b> Tableau, Excel</p>
+          <p>Explores product demand trends by region and category to highlight top performers and market patterns.</p>
+          <p><a href="https://public.tableau.com/app/profile/keerthi.tirumalika2526/viz/GlobalProductDemandAnalysis/Dashboard1" target="_blank" rel="noopener">Live Dashboard</a></p>
+        </div>
+
+        <div class="card">
+          <img src="images/er-visits-dashboard.png" alt="Emergency Room Visits dashboard preview" />
+          <h3>Emergency Room Visits Dashboard</h3>
+          <p><b>Tools:</b> Tableau, Excel</p>
+          <p>Highlights ER visit patterns across time and patient segments to identify peak volume and common drivers.</p>
+          <p><a href="https://public.tableau.com/app/profile/keerthi.tirumalika2526/viz/EmergencyRoomVisitsDashboard_17581352699150/Dashboard1" target="_blank" rel="noopener">Live Dashboard</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section reveal" id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:keerthit222@gmail.com">keerthit222@gmail.com</a></p>
+      <p>
+        <a href="https://www.linkedin.com/in/keerthitirumalika/" target="_blank" rel="noopener">LinkedIn</a> •
+        <a href="https://github.com/keerthitirumalika1" target="_blank" rel="noopener">GitHub</a> •
+        <a href="https://public.tableau.com/app/profile/keerthi.tirumalika2526" target="_blank" rel="noopener">Tableau Public</a>
+      </p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    © <span id="year"></span> Keerthi Tirumalika
+  </footer>
+
+  <script>
+    // ====== Dark mode (default: system preference) ======
+    const root = document.documentElement;
+    const toggle = document.getElementById("themeToggle");
+
+    function setTheme(mode) {
+      if (mode === "dark") {
+        root.setAttribute("data-theme", "dark");
+        toggle.textContent = "☀️";
+      } else {
+        root.removeAttribute("data-theme");
+        toggle.textContent = "🌙";
+      }
+      localStorage.setItem("theme", mode);
+    }
+
+    const saved = localStorage.getItem("theme");
+    if (saved) {
+      setTheme(saved);
+    } else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      setTheme("dark");
+    } else {
+      setTheme("light");
+    }
+
+    toggle.addEventListener("click", () => {
+      const current = root.getAttribute("data-theme") === "dark" ? "dark" : "light";
+      setTheme(current === "dark" ? "light" : "dark");
+    });
+
+    // ====== Reveal on scroll animations ======
+    const reveals = document.querySelectorAll(".reveal");
+
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) entry.target.classList.add("show");
+      });
+    }, { threshold: 0.12 });
+
+    reveals.forEach((el) => io.observe(el));
+
+    // Animate skill bars once they show
+    const skillFills = document.querySelectorAll(".fill");
+    const skillsSection = document.getElementById("skills");
+
+    const ioSkills = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        skillFills.forEach(fill => {
+          const w = fill.getAttribute("style")?.match(/width:\s*(\d+%)/)?.[1];
+          if (w) fill.style.width = w;
+        });
+        ioSkills.disconnect();
+      });
+    }, { threshold: 0.2 });
+
+    if (skillsSection) ioSkills.observe(skillsSection);
+
+    // Footer year
+    const yearEl = document.getElementById("year");
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+  </script>
 
 </body>
 </html>
